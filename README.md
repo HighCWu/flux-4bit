@@ -1,6 +1,6 @@
 # Flux.1 with 4 bit Quantization
 
-I want to train flux's LoRA using the `diffuser` library on my 16GB GPU, but it's difficult to train with flux-dev-fp8, so I want to use 4-bit weights to save VRAM.
+I want to train flux's LoRA using the `diffusers` library on my 16GB GPU, but it's difficult to train with flux-dev-fp8, so I want to use 4-bit weights to save VRAM.
 
 I found that flux's text_encoder_2 (t5xxl) quantized with bnb_nf4 is not as good as hqq_4bit, and flux's transformer quantized with hqq_4bit is not as good as bnb_nf4, so I used different quantization methods for the two models.
 
