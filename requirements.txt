@@ -1,0 +1,4 @@
+bitsandbytes>=0.43.1
+diffusers>=0.30.0
+hqq @ git+https://github.com/mobiusml/hqq@306e30d
+transformers>=4.44.0
